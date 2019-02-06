@@ -57,6 +57,7 @@ public class Locomotion : MonoBehaviour
         TriggerMove();
         fadeTime = GetComponent<FadeIn>().BeginFade(-1);
     }
+
     private void SetLocation(int index)
     {
         if (moveTo[index] != null)
